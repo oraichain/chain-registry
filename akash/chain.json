@@ -30,13 +30,19 @@
   },
   "codebase": {
     "git_repo": "https://github.com/akash-network/node/",
-    "recommended_version": "v0.30.0",
+    "recommended_version": "v0.32.1.",
     "compatible_versions": [
-      "v0.30.0"
+      "v0.32.1"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.30.0/akash_linux_amd64.zip",
-      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.30.0/akash_linux_arm64.zip"
+      "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_linux_amd64.zip",
+      "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_linux_arm64.zip"
+    },
+    "cosmos_sdk_version": "v0.45.16",
+    "ibc_go_version": "v4.4.2",
+    "consensus": {
+      "type": "cometbft",
+      "version": "akash-network/cometbft v0.34.27-akash"
     },
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/akash-network/net/master/mainnet/genesis.json"
@@ -107,6 +113,26 @@
           "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.30.0/akash_linux_amd64.zip",
           "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.30.0/akash_linux_arm64.zip"
         },
+        "next_version_name": "v0.32.0"
+      },
+      {
+        "name": "v0.32.0",
+        "recommended_version": "v0.32.1",
+        "compatible_versions": [
+          "v0.32.1"
+        ],
+        "proposal": 249,
+        "height": 15414427,
+        "binaries": {
+          "linux/amd64": "https://github.com/akash-network/node/releases/download/v0.32.1/akash_linux_amd64.zip",
+          "linux/arm64": "https://github.com/akash-network/node/releases/download/v0.32.1238/akash_linux_arm64.zip"
+        },
+        "cosmos_sdk_version": "v0.45.16",
+        "ibc_go_version": "v4.4.2",
+        "consensus": {
+          "type": "cometbft",
+          "version": "akash-network/cometbft v0.34.27-akash"
+        },
         "next_version_name": ""
       }
     ]
@@ -162,6 +188,11 @@
       {
         "id": "61686e588f0af938484579adbc2093adff06c7aa",
         "address": "europlots.com:26656"
+      },
+      {
+        "id": "c28827cb96c14c905b127b92065a3fb4cd77d7f6",
+        "address": "seeds.whispernode.com:12856",
+        "provider": "WhisperNode 🤐"
       }
     ],
     "persistent_peers": [
@@ -228,10 +259,6 @@
         "provider": "AutoStake 🛡️ Slash Protected"
       },
       {
-        "address": "https://akash.rpc.interchain.ivaldilabs.xyz",
-        "provider": "ivaldilabs"
-      },
-      {
         "address": "https://akash-rpc.kleomedes.network",
         "provider": "Kleomedes"
       },
@@ -254,6 +281,14 @@
       {
         "address": "https://akash-rpc.validatornode.com",
         "provider": "ValidatorNode"
+      },
+      {
+        "address": "https://rpc-akash.whispernode.com:443",
+        "provider": "WhisperNode 🤐"
+      },
+      {
+        "address": "https://public.stakewolle.com/cosmos/akash/rpc",
+        "provider": "Stakewolle"
       }
     ],
     "rest": [
@@ -290,10 +325,6 @@
         "provider": "AutoStake 🛡️ Slash Protected"
       },
       {
-        "address": "https://akash.rest.interchain.ivaldilabs.xyz",
-        "provider": "ivaldilabs"
-      },
-      {
         "address": "https://akash-api.kleomedes.network",
         "provider": "Kleomedes"
       },
@@ -316,6 +347,14 @@
       {
         "address": "https://akash-api.validatornode.com",
         "provider": "ValidatorNode"
+      },
+      {
+        "address": "https://lcd-akash.whispernode.com:443",
+        "provider": "WhisperNode 🤐"
+      },
+      {
+        "address": "https://public.stakewolle.com/cosmos/akash/rest",
+        "provider": "Stakewolle"
       }
     ],
     "grpc": [
@@ -338,10 +377,6 @@
       {
         "address": "grpc-akash.cosmos-spaces.cloud:1110",
         "provider": "Cosmos Spaces"
-      },
-      {
-        "address": "akash.grpc.interchain.ivaldilabs.xyz:443",
-        "provider": "ivaldilabs"
       },
       {
         "address": "grpc-akash-01.stakeflow.io:1502",
