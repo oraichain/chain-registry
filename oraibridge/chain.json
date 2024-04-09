@@ -31,22 +31,22 @@
   },
   "codebase": {
     "git_repo": "https://github.com/oraichain/Gravity-Bridge",
-    "recommended_version": "v1.0.2.2",
-    "compatible_versions": ["v1.0.2.2"],
+    "recommended_version": "v1.0.5",
+    "compatible_versions": ["v1.0.5"],
     "binaries": {
-      "linux/arm64": "https://github.com/oraichain/Gravity-Bridge/releases/download/v1.0.2.2/gravity_arm64?checksum=sha256:14ca829756f3e9cf9bccc24ea3aa394bcb029532ee7b4d34f9719613c2ed265a"
+      "linux/arm64": "https://github.com/oraichain/Gravity-Bridge/releases/download/v1.0.5/gravity_arm64?checksum=sha256:14ca829756f3e9cf9bccc24ea3aa394bcb029532ee7b4d34f9719613c2ed265a"
     },
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/oraichain/oraichain-static-files/master/mainnet-static-files/genesis.json"
     },
     "versions": [
       {
-        "name": "v1.0.2.2",
+        "name": "v1.0.5",
         "height": 9381254,
-        "recommended_version": "v1.0.2.2",
-        "compatible_versions": ["v1.0.2.2"],
+        "recommended_version": "v1.0.5",
+        "compatible_versions": ["v1.0.5"],
         "binaries": {
-          "linux/arm64": "https://github.com/oraichain/Gravity-Bridge/releases/download/v1.0.2.2/gravity_arm64?checksum=sha256:14ca829756f3e9cf9bccc24ea3aa394bcb029532ee7b4d34f9719613c2ed265a"
+          "linux/arm64": "https://github.com/oraichain/Gravity-Bridge/releases/download/v1.0.5/gravity_arm64?checksum=sha256:14ca829756f3e9cf9bccc24ea3aa394bcb029532ee7b4d34f9719613c2ed265a"
         }
       }
     ]
@@ -74,13 +74,13 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://bridge.rpc.orai.io",
+        "address": "https://bridge-v2.rpc.orai.io",
         "provider": "oraichain-team"
       }
     ],
     "rest": [
       {
-        "address": "https://bridge.lcd.orai.io",
+        "address": "https://bridge-v2.lcd.orai.io",
         "provider": "oraichain-team"
       }
     ],
